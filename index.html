@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>酷佬工作室</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2" /><!--适配不同分辨率的移动设备-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><!--指定chrome内核渲染-->
+    <meta name="renderer" content="webkit" /><!--内核控制标签-->
+    <meta name="theme-color" content="#222325" /><!--浏览器地址栏变颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#222325" />
+    <meta name="msapplication-navbutton-color" content="#222325" />
+    <meta name="description" content="我昔所造诸恶业,皆由无始贪瞋痴,从身语意之所生,一切我今皆忏悔。" /><!--网页描述-->
+	  <meta name="keywords" content="酷佬工作室,酷窝,表白墙,酷佬代刷,酷佬,Cooler"/><!--关键词-->
+	  <meta name="author" content="Cooler"/><!--作者信息-->
+  	<meta name="robots" content="index,follow" /> <!-- 搜索引擎抓取-->
+    <link rel="stylesheet" href="assets/css/font.min.css" /> <!--引用CSS表-->
+    <link rel="stylesheet" href="assets/css/style.css" /><!--引用CSS表-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/><!--地址栏图片-->
+  </head>
+
+<body>
+  <main>
+    <div class="content content-intro">
+      <div class="content-inner">
+        <canvas id="background"></canvas>
+        
+        <div class="wrap fade">
+          <h2 class="content-title">webcooler.cn</h2>
+          <h3 class="content-subtitle" original-content="有 趣 , 都 藏 在 无 聊 的 日 子 里" >&nbsp;</h3>
+          <!--首页进入控件-->
+          <a class="enter">Enter</a>
+          <div class="arrow arrow-1"></div>
+          <div class="arrow arrow-2"></div>
+        </div>
+      
+      </div>
+
+      <div class="shape-wrap">
+        <svg class="shape" width="100%" height="100vh" preserveAspectRatio="none" viewBox="0 0 1440 800" xmlns:pathdata="http://www.codrops.com/" >
+          <!--下拉过渡动画-->
+          <path d="M-44-50C-52.71 28.52 15.86 8.186 184 14.69 383.3 22.39 462.5 12.58 638 14 835.5 15.6 987 6.4 1194 13.86 1661 30.68 1652-36.74 1582-140.1 1512-243.5 15.88-589.5-44-50Z" pathdata:id="M -44,-50 C -137.1,117.4 67.86,445.5 236,452 435.3,459.7 500.5,242.6 676,244 873.5,245.6 957,522.4 1154,594 1593,753.7 1793,226.3 1582,-126 1371,-478.3 219.8,-524.2 -44,-50 Z" ></path>
+        </svg>
+      </div>
+    </div>
+    <div class="content content-main">
+      <div id="page">
+        <div id="card">
+          <div class="card-inner fade">
+
+            <header>
+              <!--QQ头像地址-->
+              <img src="http://q1.qlogo.cn/g?b=qq&nk=1789414445&s=100" width="80" height="80" alt="QQ头像" />
+              <!--第二页面昵称-->
+              <h1 data-translate="name">Cooler</h1>
+              <!--第二页面签名-->
+              <h2 id="signature" data-translate="signature" original-content="我昔所造诸恶业,皆由无始贪嗔痴." ></h2>
+            </header>
+
+            <ul>
+              <li id="whole-first"> <a href="404.html" aria-label="Blog"><i class="icon icon-bokeyuan"></i><span data-translate="Blog">Blog</span></a></li>
+              <li id="whole-second"> <a href="404.html" aria-label="About"><i class="icon icon-xin"></i><span data-translate="About">Love</span></a> </li>
+              <li id="half-first"> <a href="http://404.html" aria-label="Contact me" target="_blank"><i class="icon icon-xing1"></i><span data-translate="Contact me">Store</span></a></li>
+              <li class="quarter" id="quarter-first"> <a aria-label="Wechat"><i class="icon icon-weixin"></i><img src="/assets/img/wechat.gif" height="95" width="95" alt="Cooler"/></a> </li>
+              <li class="quarter" id="quarter-second"> <a href="404.html"  rel="noopener" aria-label="friend" ><i class="icon icon-xiaolian"></i><span data-translate="friend">About</span></a> </li>
+              <li class="quarter" id="quarter-third"> <a href="mailto:next-smile@qq.com" target="_blank" rel="noopener" aria-label="Comments" ><i class="icon icon-youjian"></i><span data-translate="Comments">Email</span></a> </li>
+              <li class="quarter" id="quarter-fourth"> <a href="404.html"  rel="noopener" aria-label="other" ><i class="icon icon-youqinglianjie"></i><span data-translate="Comments">Friend</span></a> </a> </li>
+            </ul>
+
+            <!--服务协议-->
+            <div class="copyright"></div>
+            <div class="copyright-content"></div>
+            <a href="web/Other/Treaty/index.html" title="服务协议"><img src="assets/img/treaty.png" width="12px" alt="服务协议"/></a>
+            <a href="web/Other/App/index.html" title="软件下载"><img src="assets/img/app.png" alt="软件下载"/></a>
+            <!--站长统计-->
+            <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279114843'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279114843%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+          </div>
+        </div>
+      </div>
+    </div>
+<!--首页下滑布局-->
+    <script src="assets/js/anime.min.js"></script>
+    <script>
+      window.$ = (selector) => document.querySelector(selector);
+      const getOriginalContent = (selector) =>
+        $(selector).getAttribute("original-content");
+      window.subtitle = getOriginalContent(".content-subtitle");
+      window.signature = getOriginalContent("#signature");
+      window.config = {
+        SIM_RESOLUTION: 128,
+        DYE_RESOLUTION: 1024,
+        CAPTURE_RESOLUTION: 512,
+        DENSITY_DISSIPATION: 1,
+        VELOCITY_DISSIPATION: 0.2,
+        PRESSURE: 0.8,
+        PRESSURE_ITERATIONS: 20,
+        CURL: 30,
+        SPLAT_RADIUS: 0.25,
+        SPLAT_FORCE: 6000,
+        SHADING: true,
+        COLORFUL: true,
+        COLOR_UPDATE_SPEED: 10,
+        PAUSED: false,
+        BACK_COLOR: { r: 30, g: 31, b: 33 },
+        TRANSPARENT: false,
+        BLOOM: true,
+        BLOOM_ITERATIONS: 8,
+        BLOOM_RESOLUTION: 256,
+        BLOOM_INTENSITY: 0.4,
+        BLOOM_THRESHOLD: 0.8,
+        BLOOM_SOFT_KNEE: 0.7,
+        SUNRAYS: true,
+        SUNRAYS_RESOLUTION: 196,
+        SUNRAYS_WEIGHT: 1.0,
+      };
+    </script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/background.js"></script>
+
+<!--背景音乐-->
+<audio autoplay>
+<source src="/assets/audio/background.mp3" type="audio/mpeg">
+
+  </main>
+</body>
+</html>
